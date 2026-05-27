@@ -1,0 +1,21 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+
+@font-face {
+  font-family: "DMSans";
+  src: url("./assets/fonts/DMSans-VariableFont_opsz,wght.ttf") format("truetype");
+  font-weight: 400 700;
+}
+
+html{
+   scroll-behavior:smooth;
+}
+
+html,body{
+   width:100%;
+   height:100%;
+   font-family: "DMSans", sans-serif;
+}
