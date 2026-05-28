@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "DMSans";
-  src: url("./assets/fonts/DMSans-VariableFont_opsz,wght.ttf") format("truetype");
+  src: url("../public/assets/fonts/DMSans-VariableFont_opsz,wght.ttf") format("truetype");
   font-weight: 400 500;
 }
 
@@ -60,7 +60,7 @@ body { background-color: hsl(0, 0%, 90%); }
 }
 .create-card h2 {
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1;
   margin-bottom: 0;
 }
 .create-card span {
@@ -89,7 +89,7 @@ body { background-color: hsl(0, 0%, 90%); }
 .social-media-card h2 {
   font-size: 50px;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1;
   margin-bottom: 14px;
 }
 .social-media-card .number  { color: hsl(39, 100%, 71%); }
@@ -115,7 +115,7 @@ body { background-color: hsl(0, 0%, 90%); }
 }
 .schedule_card h3 {
   font-size: 28px;
-  line-height: 1.2;
+  line-height: 1;
   margin-bottom: 16px;
 }
 .schedule_card img {
@@ -126,9 +126,9 @@ body { background-color: hsl(0, 0%, 90%); }
   object-position: left;
 }
 .schedule_card p {
-  font-size: 14px;
+  font-size: 20px;
   margin-top: 16px;
-  line-height: 1.45;
+  line-height: 1.1;
   color: hsl(0, 0%, 20%);
 }
 
@@ -150,7 +150,7 @@ body { background-color: hsl(0, 0%, 90%); }
 }
 .multi-media-card h2 {
   font-size: 28px;
-  line-height: 1.25;
+  line-height: 1;
   margin-top: 10px;
 }
 
@@ -238,7 +238,7 @@ body { background-color: hsl(0, 0%, 90%); }
 }
 .followers-card h2 {
   font-size: 34px;
-  line-height: 1.25;
+  line-height: 1.1;
 }
 
 
