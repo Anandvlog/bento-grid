@@ -33,7 +33,7 @@ const Homepage = () => {
         />
         <p>
           Optimize post timings to publish content at the perfect time for
-          platforms.
+          your audience.
         </p>
       </div>
 
