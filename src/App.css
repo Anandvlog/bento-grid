@@ -283,45 +283,186 @@ body { background-color: hsl(0, 0%, 90%); }
 
 
 /* =============================================
-   MOBILE  (< 600px)  →  1-column stack
-   ============================================= */
+   MOBILE  (< 600px)
+   Match exact mobile layout from image
+============================================= */
 @media (max-width: 599px) {
-  .container { padding: 14px; margin: 16px auto; }
 
-  .grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    gap: 14px;
+  .container{
+    padding: 12px;
+    margin: 10px auto;
   }
 
-  /* Reset all grid placements */
-  .create-card,
-  .social-media-card,
-  .schedule_card,
-  .ai-card,
-  .multi-media-card,
-  .maintain-card,
-  .audience-card,
-  .followers-card {
-    grid-column: auto;
-    grid-row: auto;
-    min-height: unset;
+  .grid{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
   }
 
-  .followers-card {
+  .grid > div{
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  /* ---------------- SOCIAL CARD ---------------- */
+  .social-media-card{
+    order: 1;
+    padding: 32px 22px;
+    text-align: center;
+    min-height: 290px;
+  }
+
+  .social-media-card h2{
+    font-size: 42px;
+    line-height: 1;
+    margin-bottom: 18px;
+  }
+
+  .social-media-card img{
+    width: 190px;
+  }
+
+  .social-media-card p{
+    font-size: 18px;
+  }
+
+  /* ---------------- MULTI ACCOUNT ---------------- */
+  .multi-media-card{
+    order: 2;
+    padding: 18px;
+    min-height: 170px;
+  }
+
+  .multi-media-card img{
+    height: auto;
+    width: 100%;
+  }
+
+  .multi-media-card h2{
+    font-size: 34px;
+    line-height: 1;
+    margin-top: 18px;
+  }
+
+  /* ---------------- MAINTAIN ---------------- */
+  .maintain-card{
+    order: 3;
+    padding: 18px 18px 0;
+    min-height: 260px;
+  }
+
+  .maintain-card h2{
+    font-size: 36px;
+    line-height: 0.95;
+    margin-bottom: 20px;
+  }
+
+  .maintain-card img{
+    width: 100%;
+    max-width: 220px;
+    margin-top: auto;
+  }
+
+  /* ---------------- SCHEDULE ---------------- */
+  .schedule_card{
+    order: 4;
+    padding: 24px 18px;
+    min-height: 430px;
+  }
+
+  .schedule_card h3{
+    font-size: 34px;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .schedule_card img{
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .schedule_card p{
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 22px;
+  }
+
+  /* ---------------- FOLLOWERS ---------------- */
+  .followers-card{
+    order: 5;
     flex-direction: column;
     text-align: center;
-    gap: 14px;
+    padding: 28px 20px;
+    gap: 24px;
+    min-height: 360px;
   }
-  .followers-card img { max-width: 70%; margin: 0 auto; }
 
-  /* Typography */
-  .social-media-card h2 { font-size: 28px; }
-  .create-card h2       { font-size: 26px; }
-  .schedule_card h3     { font-size: 20px; }
-  .audience-card h2     { font-size: 40px; }
-  .followers-card h2    { font-size: 24px; }
-  .multi-media-card h2,
-  .maintain-card h2,
-  .ai-card h2           { font-size: 22px; }
+  .followers-card img{
+    width: 75%;
+    max-width: 230px;
+  }
+
+  .followers-card h2{
+    font-size: 42px;
+    line-height: 0.95;
+  }
+
+  /* ---------------- AUDIENCE ---------------- */
+  .audience-card{
+    order: 6;
+    padding: 22px;
+    min-height: 220px;
+  }
+
+  .audience-card h2{
+    font-size: 62px;
+    margin-bottom: 12px;
+  }
+
+  .audience-card p{
+    font-size: 22px;
+    margin-bottom: 18px;
+  }
+
+  .audience-card img{
+    width: 170px;
+  }
+
+  /* ---------------- CREATE ---------------- */
+  .create-card{
+    order: 7;
+    padding: 24px;
+    min-height: 260px;
+  }
+
+  .create-card h2{
+    font-size: 42px;
+    line-height: 0.95;
+    margin-bottom: 24px;
+  }
+
+  .create-card img{
+    width: 220px;
+    max-width: 100%;
+  }
+
+  /* ---------------- AI CARD ---------------- */
+  .ai-card{
+    order: 8;
+    padding: 24px;
+    min-height: 340px;
+  }
+
+  .ai-card h2{
+    font-size: 42px;
+    line-height: 0.95;
+    margin-bottom: 24px;
+  }
+
+  .ai-card img{
+    width: 240px;
+    max-width: 100%;
+  }
 }
