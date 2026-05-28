@@ -3,7 +3,7 @@ import React from "react";
 const Homepage = () => {
   return (
     <div className="container">
-      <div className="grid"></div>
+      <div className="grid">
       <div className="create-card">
         <h2>
           Create and schedule content <span>quicker.</span>
@@ -65,10 +65,7 @@ const Homepage = () => {
               <img alt="followers" src="/src/assets/images/illustration-grow-followers.webp" />
               <h2>Grow followers with non-stop content.</h2>
         </div>
-
-
-
-
+   </div>
     </div>
   );
 };
