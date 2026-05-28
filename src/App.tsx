@@ -1,10 +1,11 @@
 import './App.css'
+import Homepage from './pages/Home'
 
 function App() {
 
   return (
     <>
-      <h1>Welcome to React with TypeScript!</h1>
+    <Homepage />
     </>
   )
 }

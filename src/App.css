@@ -7,7 +7,7 @@
 @font-face {
   font-family: "DMSans";
   src: url("./assets/fonts/DMSans-VariableFont_opsz,wght.ttf") format("truetype");
-  font-weight: 400 700;
+  font-weight: 400 500;
 }
 
 html{
@@ -21,5 +21,221 @@ html,body{
 }
 
 body{
-  background-color:hsl(31, 66%, 93%);
+  background-color:hsl(0, 0%, 90%);
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+   padding: 0 2rem;
+   max-width: 1200px;
+}
+
+.create-card{
+   width: 100%;
+   max-width: 190px;
+   background-color: hsl(31, 66%, 93%);
+   padding: 20px;
+   border-radius: 5px;
+   height: 280px;
+}
+.create-card h2{
+   font-size: 25px;
+   font-weight: 700;
+   letter-spacing: normal;
+}
+
+.create-card span{
+   display: block;
+   font-size: 18px;
+   color: hsl(256, 67%, 59%);
+   margin-bottom: 10px;
+   font-style: italic;
+}
+.create-card img{
+   width: 100%;
+   max-width: 150px;
+   height: auto;
+
+}
+
+.social-media-card{
+    width: 100%;
+    background: hsl(256, 67%, 59%);
+    max-width: 300px;
+    padding: 25px;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+.social-media-card h2{
+   font-size: 26px;
+   font-weight: 500;
+   letter-spacing: normal;
+   margin-bottom: 12px;
+}
+
+
+.social-media-card .number{
+  color: hsl(39, 100%, 71%);
+}
+.social-media-card .font-style{
+   font-style: italic;
+}
+
+.social-media-card img{
+   width: 100%;
+   max-width: 110px;
+   height: auto;
+}
+
+.social-media-card p{
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.schedule_card{
+   color: hsl(0, 0%, 7%);
+   background-color: hsl(254, 88%, 90%);
+   width: 100%;
+   max-width: 250px;
+   border-radius: 5px;
+   padding: 25px;
+}
+
+.schedule_card img{
+  width: 100%;
+  max-width: 270px;
+}
+
+.schedule_card h3{
+  font-size: 25px;
+   font-weight: 600;
+   line-height: normal;
+   margin-bottom: 15px;
+}
+
+.schedule_card p{
+   font-size: 14px;
+    margin-top: 15px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ai-card{
+   background-color: hsl(39, 100%, 71%);
+   color: hsl(0, 0%, 7%);
+   width: 100%;
+   max-width: 200px;
+   border-radius: 5px;
+   padding: 20px;
+}
+
+.ai-card h2{
+   font-size: 25px;
+   font-weight: 600;
+   line-height: normal;
+   margin-bottom: 35px;
+}
+.ai-card img{
+   width: 100%;
+   max-width: 270px;
+}
+
+.multi-media-card{
+  background-color: hsl(0, 0%, 100%);
+   color: hsl(0, 0%, 7%);
+   width: 100%;
+   max-width: 220px;
+   border-radius: 5px;
+   padding: 20px;
+}
+
+.multi-media-card img{
+   width: 100%;
+   max-width: 230px;
+   height: auto;
+}
+
+.multi-media-card h2{
+   font-size: 26px;
+   font-weight: 600;
+   letter-spacing: normal;
+   margin-top: 10px;
+}
+
+.maintain-card{
+   background-color: hsl(39, 100%, 71%);
+   color: hsl(0, 0%, 7%);
+   width: 100%;
+   max-width: 220px;
+   border-radius: 5px;
+   padding: 20px;
+}
+
+.maintain-card h2{
+   font-size: 26px;
+   font-weight: 600;
+   letter-spacing: normal;
+   margin-bottom: 10px;
+}
+
+.maintain-card img{
+   width: 100%;
+   max-width: 230px;
+   height: auto;
+}
+
+.audience-card{
+   background-color: hsl(0, 0%, 100%);
+   color: hsl(0, 0%, 7%);
+   width: 100%;
+   max-width: 220px;
+   border-radius: 5px;
+   padding: 20px;
+}
+.audience-card h2{
+   font-size: 26px;
+   font-weight: 600;
+   letter-spacing: normal;
+   margin-bottom: 10px;
+}
+.audience-card p{
+   font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    line-height: normal;
+}
+.audience-card img{
+   width: 100%;
+   max-width: 200px;
+   height: auto;
+}
+.followers-card{
+   background-color: hsl(256, 67%, 59%);
+   color: hsl(0, 0%, 100%);
+   width: 100%;
+   max-width: 420px;
+   border-radius: 5px;
+   padding: 20px;
+   display: flex;
+   align-items: center;
+}
+
+.followers-card h2{
+   font-size: 26px;
+   font-weight: 600;
+   letter-spacing: normal;
+}
+
+.followers-card img{
+   width: 100%;
+   max-width: 200px;
+   height: auto;
+}
+
+
+.row-2{
+   
 }
